@@ -1,0 +1,62 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "$template": {
+      "type": "b40e085f-bf80-44c2-b264-6112897a3bad:string:EMBEDDED_RENDERER",
+      "name": "e237ae40-3167-4144-b9c9-fd9dd3c8263b:string:BILL_OF_LADING",
+      "url": "f7c6cebc-2608-4d78-9593-69b66b05e7ca:string:https://blkp-doc-rendr.netlify.app/"
+    },
+    "issuers": [
+      {
+        "name": "bdb2bbae-a329-4eae-b08f-4b02d88ae224:string:Blockpeer Finance",
+        "tokenRegistry": "99f94512-bda9-493d-93e1-fd575481fdc3:string:0x7090985Ad3965b0181eEa03ba872471755880bFB",
+        "identityProof": {
+          "type": "b8ffd453-0bf4-479c-a9a2-f94c3d5b634a:string:DNS-TXT",
+          "location": "3cd7430c-5096-4051-bbea-667b987611dd:string:mebl-stability-local.blockpeer.finance"
+        }
+      }
+    ],
+    "carrierName": "ba9979fe-bf55-47ce-8f43-471b689a21e9:string:Sed quis corrupti v",
+    "companyName": "93446709-6c08-4716-834d-5f59dbef313d:string:WorkDo",
+    "logo": "7dcfe8fa-8d5d-46c7-959f-6e73fafad3c9:string:http://localhost/bp-laravel/public/uploads/logo/logo_dark.png",
+    "blNumber": "1989fc19-c9fc-4cf9-a376-b84996b7e76e:string:Ut et ea fugit pers",
+    "scac": "bc690245-e590-445a-9940-c68b6631a63c:string:Laudantium aut elit",
+    "shipper": {
+      "name": "614d152e-25c0-4984-83bb-4b61ec9c979f:string:Cole Allison",
+      "address": {
+        "street": "03459660-5574-4637-b543-126c7ef6588b:string:Fugiat aut totam co",
+        "country": "1deed634-8814-4243-8a6f-a9554f8cf8ae:string:Molestias qui qui in"
+      }
+    },
+    "consignee": {
+      "name": "5235f6ca-1ecd-471e-91f9-0a6eb633e3ff:string:Sed quis corrupti v"
+    },
+    "notifyParty": {
+      "name": "7a0c34c3-c993-4070-bf8a-8b1b519d75ee:string:Ut officia voluptate"
+    },
+    "vessel": "2df8b966-7779-46d8-b9fc-586fc1e2f6dc:string:Voluptatem in non s",
+    "voyageNo": "174ec714-341f-40ab-ac3b-ee3561fe4ccf:string:Magna nihil doloribu",
+    "portOfLoading": "5794a163-85d5-46e7-ad50-65351b2b0a3e:string:Totam laborum Ut ab",
+    "portOfDischarge": "7344b39c-8393-479c-8405-c23c84e681ec:string:Omnis non officia es",
+    "placeOfReceipt": "d84751af-25be-469e-9337-aebd5346bcec:string:Porro sit voluptatem",
+    "placeOfDelivery": "bcc4a3b4-19b5-4ad5-8abf-91604690329d:string:Quod vel tempora exe",
+    "packages": [
+      {
+        "description": "949f86fd-a915-41f8-bdde-6957189d897c:string:Distinctio Quam cum",
+        "weight": "8f28b4f8-99ba-44fd-9401-a3fd1b9700c1:string:Officia ipsum modi",
+        "measurement": "2a39a13e-d5a9-4877-8838-db0204cd91b6:string:Eveniet irure dolor"
+      }
+    ],
+    "links": {
+      "self": {
+        "href": "025e2499-9ca4-4de6-9783-c574c96d3160:string:https://action.openattestation.com/?q=%7B%22type%22:%22DOCUMENT%22,%22payload%22:%20%7B%22uri%22:%20%22https://api-ropsten.tradetrust.io/storage/33737b71-96f6-4019-b6c1-5fcea04fcc2a%22,%22key%22:%20%22edcbadf17301fe5dfe174496c7edf29e0702e2775ee919bbccb74d0dfd5a1b4b%22,%22permittedActions%22:%20%5B%22STORE%22%5D,%22redirect%22:%20%22https://dev.tradetrust.io%22%7D%7D"
+      }
+    }
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "64f7aec322cd6bf5683a222e97b4d7fa657d8260fbcb22fc0887034231b6c179",
+    "proof": [],
+    "merkleRoot": "64f7aec322cd6bf5683a222e97b4d7fa657d8260fbcb22fc0887034231b6c179"
+  }
+}
